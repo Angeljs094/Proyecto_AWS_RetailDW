@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Implementación en AWS para Análisis de Ventas Retail
 
 Proyecto dirigido desde la gerencia de proyecto para la implementación de una **arquitectura de Data Lake y Data Warehouse en AWS** que habilite análisis de ventas, gobernanza y toma de decisiones en **DMC Retail**. Este README está redactado con enfoque ejecutivo, técnico y operativo, diseñado para facilitar la revisión, la entrega y la operación.

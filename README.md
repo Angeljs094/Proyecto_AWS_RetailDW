@@ -1,11 +1,10 @@
-<<<<<<< HEAD
-### Implementación en AWS para Análisis de Ventas Retail
+# Implementación en AWS para Análisis de Ventas Retail
 
-Proyecto dirigido desde la gerencia de proyecto para la implementación de una **arquitectura de Data Lake y Data Warehouse en AWS** que habilite análisis de ventas, gobernanza y toma de decisiones en **DMC Retail**. Este README está redactado con enfoque ejecutivo, técnico y operativo, diseñado para facilitar la revisión, la entrega y la operación.
+Proyecto  para la implementación de una **arquitectura de Data Lake y Data Warehouse en AWS** que habilite análisis de ventas, gobernanza y toma de decisiones en **DMC Retail**. 
 
 ---
 
-### Resumen ejecutivo y objetivos
+## Resumen ejecutivo y objetivos
 
 **Resumen ejecutivo**  
 DMC Retail requería consolidar datos transaccionales on‑premise para obtener reportes confiables y oportunos. La solución implementada centraliza ingesta, catalogación, procesamiento y consumo analítico en AWS, entregando un pipeline reproducible, auditable y escalable que soporta dashboards de negocio y reduce la latencia en la obtención de información.
@@ -25,37 +24,26 @@ DMC Retail requería consolidar datos transaccionales on‑premise para obtener 
 
 ---
 
-### Arquitectura y diagramas
+## Arquitectura y diagramas
 
 La arquitectura se organiza en capas: **raw**, **trusted** y **analítica**, con control de versiones, lineage y orquestación centralizada. A continuación se presentan los diagramas principales del proyecto. Las imágenes están en la carpeta `Images` del repositorio.
-
-<p align="center">
-  <img src="Images/Arquitectura_DMC_Retail_aws.png" alt="Arquitectura_DMC_Retail_aws" width="900"/>
-</p>
 
 **Nombre de la imagen**: **Arquitectura_DMC_Retail_aws**
 
 <p align="center">
-  <img src="Images/Pipeline_StepFuction.png" alt="Pipeline_StepFuction" width="900"/>
+  <img src="Arquitectura/Arquitectura_DMC_Retail_aws.png" alt="Arquitectura_DMC_Retail_aws" width="900"/>
 </p>
 
 **Nombre de la imagen**: **Pipeline_StepFuction**
 
 <p align="center">
-  <img src="Images/Datawarehouse_Tech.png" alt="Datawarehouse_Tech" width="800"/>
+  <img src="Arquitectura/Pipeline_StepFuction.png" alt="Pipeline_StepFuction" width="900"/>
 </p>
 
-**Nombre de la imagen**: **Datawarehouse_Tech**
-
-<p align="center">
-  <img src="Images/Reporte.png" alt="Reporte" width="800"/>
-</p>
-
-**Nombre de la imagen**: **Reporte**
 
 ---
 
-### Plan de implementación por fases
+## Plan de implementación por fases
 
 **Fase 1 Preparación y aprovisionamiento**  
 - Crear bucket S3 con prefijos `/raw`, `/trusted`, `/scripts`, `/logs`.  
@@ -85,7 +73,7 @@ La arquitectura se organiza en capas: **raw**, **trusted** y **analítica**, con
 
 
 
-### Validación pruebas y criterios de aceptación
+## Validación pruebas y criterios de aceptación
 
 **Pruebas por fase**  
 - **Ingesta**: verificación de archivos en `/raw`, conteo de filas y checksum.  
@@ -138,7 +126,7 @@ Data Engineer | BI Design Architect
 
 ---
 
-### Estructura del repositorio
+## Estructura del repositorio
 
 ```
 Proyecto_DataFabric_Store/

@@ -1,0 +1,53 @@
+# ============================
+# Proyecto AWS Retail - Gitignore
+# ============================
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración locales
+*.env
+*.log
+*.sqlite3
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de sistema (Windows / OneDrive)
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+
+# Archivos de dependencias
+*.egg-info/
+
+# Archivos de Power BI (pesados, no versionables)
+*.pbix
+
+# Archivos comprimidos y temporales
+*.zip
+*.tar
+*.gz
+
+# Archivos de datos sensibles o temporales
+*.csv
+*.json
+*.parquet
+*.xlsx
+
+# Carpeta de sincronización OneDrive (no subir sincronizaciones locales)
+OneDrive/
